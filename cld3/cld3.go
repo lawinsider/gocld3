@@ -6,7 +6,7 @@
 package cld3
 
 // #cgo CXXFLAGS: -std=c++11
-// #cgo pkg-config: protobuf
+// #cgo pkg-config: --static protobuf
 // #include <stdlib.h>
 // #include "cld3.h"
 import "C"
